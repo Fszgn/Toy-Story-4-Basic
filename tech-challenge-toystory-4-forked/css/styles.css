@@ -1,0 +1,216 @@
+@import "_reset.css";
+/*  Color palette
+    -----------------------
+    color       HEX code  RGB code
+    -------------------------------------
+    red:      	#960001	  rgb(150,0,1)
+    yellow:     #e2e55f	  rgb(226,229,95)
+    green:      #96c25f	  rgb(150,194,95)
+    blue:       #5582c6	  rgb(85,130,198)
+    purple: 	  #79519f	  rgb(121,81,159) 
+
+    fonts
+    -----------------------
+    headings:   Cabin
+    body:       Roboto
+
+    font-sizes:
+    -----------------------
+    h1:   70px
+    h2:   36px
+    h3    24px
+    body: 17px (all other text)
+
+    breakpoints
+    -----------------------
+    desktop: 1200px
+    
+    max-width of the content is 1400px
+*/
+
+/* Add all of your styles here */
+
+body {
+  background-color: rgb(85, 130, 198);
+}
+.wallpic {
+  width: 500px;
+  height: 500px;
+}
+
+.t4 {
+  margin-left: 10em;
+  margin-top: -10.5em;
+  height: 70%;
+  width: 45%;
+  box-shadow: 6px 6px 6px rgb(58, 65, 94);
+}
+.maintitle {
+  margin-top: -7.6em;
+  margin-left: 28rem;
+  text-align: center;
+  background-color: rgba(190, 224, 238, 0.883);
+  font-family: "Cabin", sans-serif;
+  font-size: 4em;
+
+  color: rgb(150, 0, 1);
+  font-weight: 600;
+  width: 6.5em;
+  height: 1.1em;
+  border-radius: 2px;
+  box-shadow: 4px 4px 4px rgb(103, 111, 143);
+}
+
+.wp {
+  width: 100%;
+  height: 400px;
+}
+.firsttext {
+  margin-top: 8em;
+  margin-left: 10em;
+}
+h2 {
+  color: rgb(150, 0, 1);
+  font-family: "Cabin", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 24px;
+  color: rgb(150, 0, 1);
+  font-weight: 600;
+  font-family: "Cabin", sans-serif;
+}
+.line-1,
+.line-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 1.3px;
+  background: rgb(226, 229, 95);
+  width: 1280px;
+}
+
+p {
+  font-size: 17px;
+  font-family: "Cabin", sans-serif;
+  color: whitesmoke;
+}
+.character_woody {
+  margin-left: 10em;
+  width: 220px;
+  height: 220px;
+}
+/* Picture sizes */
+.woody,
+.buzz,
+.forky,
+.bopeep {
+  width: 180px;
+  height: 180px;
+  box-shadow: 5px 5px 5px rgb(103, 111, 143);
+  border-radius: 5px;
+}
+.character_woody_desc {
+  margin-top: -12.4em;
+  margin-left: 23em;
+  width: 400px;
+  height: 200px;
+}
+.linkTH {
+  color: rgb(226, 229, 95);
+  text-decoration: none;
+}
+
+.character_buzz {
+  margin-left: 50em;
+  margin-top: -13.7em;
+  width: 220px;
+  height: 220px;
+}
+
+.character_buzz_desc {
+  margin-top: -12.4em;
+  margin-left: 62.7em;
+  width: 400px;
+  height: 200px;
+}
+.character_forky {
+  margin-left: 10em;
+  width: 220px;
+  height: 220px;
+}
+.character_forky_desc {
+  margin-top: -10.3em;
+  margin-left: 23em;
+  width: 400px;
+  height: 200px;
+}
+.character_bopeep {
+  margin-top: -14.05em;
+  margin-left: 50em;
+  width: 220px;
+  height: 220px;
+}
+.character_bopeep_desc {
+  margin-top: -12.4em;
+  margin-left: 62.7em;
+  width: 400px;
+  height: 200px;
+}
+.lastp {
+  margin-top: 3px;
+  margin-left: 50em;
+  width: 630px;
+}
+.boldw {
+  font-weight: 600;
+  color: rgb(150, 0, 1);
+}
+.wpara {
+  color: rgb(150, 0, 1);
+  font-size: large;
+}
+.btn {
+  margin-left: 11.8em;
+  background-color: rgb(226, 229, 95);
+  height: 60px;
+  width: 1283px;
+}
+.btn:hover {
+  transform: translateY(-10px);
+}
+.b {
+  font-weight: 600;
+}
+.comtitle {
+  width: 1230px;
+  margin-left: 10em;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  max-width: 880px;
+  margin-left: 10em;
+  margin-bottom: 8em;
+}
+.txt,
+.submitbtn {
+  width: 380px;
+  height: 55px;
+}
+.submitbtn {
+  background-color: rgb(121, 81, 159);
+  font-size: 23px;
+  font-family: "Cabin", sans-serif;
+  color: white;
+}
+.listcom {
+  margin-left: 10em;
+  color: white;
+  font-size: 23px;
+}
+.submitbtn:hover {
+  transform: translateY(-10px);
+}
